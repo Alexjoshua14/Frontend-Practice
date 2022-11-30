@@ -1,4 +1,5 @@
 // Alex Joshua (c) 2022
+
 import '../css/HomePage.css';
 
 export default function HomePage() {

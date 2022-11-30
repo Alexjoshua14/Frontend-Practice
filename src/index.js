@@ -1,3 +1,5 @@
+// Alex Joshua (c) 2022
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

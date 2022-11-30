@@ -1,3 +1,5 @@
+// Alex Joshua (c) 2022
+
 import '../css/SplitText.css';
 
 export default function SplitText() {
