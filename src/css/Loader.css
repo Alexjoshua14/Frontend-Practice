@@ -1,0 +1,73 @@
+/** Alex Joshua (c) 2022 **/
+
+body {
+    --main-color: #127897;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--main-color);
+    overflow: hidden;
+}
+
+.loader {
+    position: relative;
+    display: flex;
+}
+
+.loader span {
+    width: 5vw;
+    height: 40vh;
+    margin: 0 2vw;
+    border-radius: 2rem 4rem;
+    background: var(--main-color);
+    animation: bar-wave 1.4s linear infinite;
+}
+
+.loader span:nth-child(7n + 0) {
+    animation-delay: 0s;
+}
+
+.loader span:nth-child(7n + 1) {
+    animation-delay: 0.2s;
+}
+
+.loader span:nth-child(7n + 2) {
+    animation-delay: 0.4s;
+}
+
+.loader span:nth-child(7n + 3) {
+    animation-delay: 0.6s;
+}
+
+.loader span:nth-child(7n + 4) {
+    animation-delay: 0.8s;
+}
+
+.loader span:nth-child(7n + 5) {
+    animation-delay: 1s;
+}
+.loader span:nth-child(7n + 6) {
+    animation-delay: 1.2s;
+}
+
+@keyframes bar-wave {
+    0% {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transform: translateX(-5vw) scale(1);
+    }
+    50% {
+        box-shadow: 0 20px 5vw rgba(0, 0, 0, 0.5);
+        opacity: 1;
+        transofrm: translateX(0vw) scale(1.2);
+    }
+
+    100% {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transform: translateX(5vw) scale(1);
+    }
+}
