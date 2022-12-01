@@ -1,12 +1,14 @@
 /** Alex Joshua (c) 2022 **/
 
-body {
+.splitTextContainer {
     --dark: #121212;
     --light: #defeed;
     background: var(--light);
+    height: 100vh;
+    width: 100vw;
 }
 
-span {
+.splitTextContainer span {
     /* text */
     font-weight: bold;
     font-size: 4rem;

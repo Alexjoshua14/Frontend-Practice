@@ -4,7 +4,7 @@ import '../css/Loader.css';
 
 export default function Loader() {
     return(
-        <body>
+        <div class="loaderContainer">
             <div class="loader">
                 <span></span>
                 <span></span>
@@ -21,6 +21,6 @@ export default function Loader() {
                 <span></span>
                 <span></span>
             </div>
-        </body>
+        </div>
     )
 }
