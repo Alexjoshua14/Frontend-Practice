@@ -1,14 +1,12 @@
 /** Alex Joshua (c) 2022 **/
 
-.splitTextContainer {
-    --dark: #121212;
-    --light: #defeed;
-    background: var(--light);
+.stc {
+    background: var(--mint-green);
     height: 100vh;
     width: 100vw;
 }
 
-.splitTextContainer span {
+.stc span {
     /* text */
     font-weight: bold;
     font-size: 4rem;
@@ -20,7 +18,7 @@
     translate: -50% -50%;
 }
 
-.innerContainer {
+.stc .innerContainer {
     width: 20vw;
     height: 10vh;
     min-height: 100px;
@@ -36,24 +34,24 @@
     z-index: 1;
 }
 
-.innerContainer:hover {
+.stc .innerContainer:hover {
     width: 60vw;
     height: 20vh;
 }
 
-.rectangle {
+.stc .rectangle {
     background: var(--dark);
     width: 100%;
     height: 100%;
 }
 
-.innerText {
-    color: var(--light);
+.stc .innerText {
+    color: var(--mint-green);
     position: absolute;
 
 }
 
-.outerText {
+.stc .outerText {
     color: var(--dark);
     z-index: 0;
 }

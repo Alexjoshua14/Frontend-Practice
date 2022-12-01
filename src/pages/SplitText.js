@@ -6,7 +6,7 @@ export default function SplitText() {
     let text = "Here is some example text";
     
     return (
-        <div class="splitTextContainer">
+        <div class="stc">
             <div class="innerContainer"> 
                 <div class="rectangle"></div>
                 <span class="innerText">{text}</span>

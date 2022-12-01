@@ -4,6 +4,7 @@ import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Loader from './pages/Loader';
+import SpinLoader from './pages/SpinLoader';
 import SplitText from './pages/SplitText';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <ul>
             <li><Link to="/" class="link">Home</Link></li>
             <li><Link to="/loader" class="link">Loader</Link></li>
+            <li><Link to="/spinloader" class="link">Spin Loader</Link></li>
             <li><Link to="/splittext" class="link">Split Text</Link></li>
           </ul>
         </nav>
@@ -22,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/loader" element={<Loader />} />
+          <Route path="/spinloader" element={<SpinLoader />} />
           <Route path="/splittext" element={<SplitText />} />
         </Routes>
       </div>
