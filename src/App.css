@@ -13,30 +13,6 @@
   text-align: center;
 }
 
-.App-header {
-  background-color: var(--dark);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: var(--light);
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 nav ul {
   display: flex;
   margin: 0;
@@ -65,7 +41,7 @@ nav .link {
 }
 
 .sticky {
-  background: rgba(0, 0, 0, .8);
+  background: rgba(12, 31, 21, .8);
   position: fixed;
   display: flex;
   align-items: center;
@@ -73,5 +49,5 @@ nav .link {
   left:0;
   width: 100vw;
   height:6vh;
-  box-shadow: 0 2vh 2vh rgba(0, 0, 0, 0.2);
+  box-shadow: 0 .7vh .7vh rgba(12, 31, 21, 0.8);
 }
