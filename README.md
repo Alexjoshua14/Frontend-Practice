@@ -1,5 +1,7 @@
 # Frontend Practice
 
+Implementation of a variety of UI components using React.
+
 ## Available Scripts
 
 In the project directory, you can run:
