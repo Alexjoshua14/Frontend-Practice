@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function HomePage() {
     return(
         <div class="home">
-            <TypeAnimation 
+            <TypeAnimation
                 sequence={[
                     "Practicing JS and CSS in React Framework"
                 ]}
