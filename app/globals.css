@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark: #121212;
+  --dark-secondary: #161918;
+  --dark-1: #123121;
+  --light: #FFFDFA;
+  --mint-green: #defeed;
+  --green: #138a36;
+  --pink: #fe5633;
+  --purple: #f20eff;
+  --blue: #127897;
+}

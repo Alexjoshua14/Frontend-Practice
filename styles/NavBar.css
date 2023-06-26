@@ -1,0 +1,15 @@
+/** Alex Joshua (c) 2022 **/
+
+nav {
+  min-width: 250px;
+  opacity: 90%;
+  background: var(--dark-secondary)
+}
+
+.active {
+  color: var(--green);
+}
+
+.non-active {
+  color: var(--mint-green);
+}
